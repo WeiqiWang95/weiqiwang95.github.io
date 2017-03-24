@@ -1,63 +1,263 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WEIQI WANG</title>
+		<title>15</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 
 		<style media="screen">
 
-		body{
-    background-color: black;
-		}
+		body {
 
-    .W{
-   font-family: didot;
-	 font-weight: bolder;
-	 font-size: 1000px;
+			background-image: linear-gradient(to bottom, #FA8080,pink, #FEB8B8,#FF5252);
+			height: 3000px;
+  }
+
+  a{
+		color: white;
+	}
+
+  .level{
 	 margin-left: 200px;
-	 margin-top: -300px;
-	 color: white;
-   position: fixed;
-	 z-index:-1;
-
-		}
+   margin-top: 800px;
+   font-family: gotham book;
+   font-size: 20px;
 
 
 
-   .level{
-    margin-left: 300px;
-		margin-top: 200px;
-		font-family: didot;
-		font-size: 20px;
+   }
 
+
+	 .pic {
+	     width: 500px;
+	     height: 500px;
+	     overflow: hidden;
+	     cursor: pointer;
+	     border-radius: 300px;
+
+	     margin: 50px auto;
+	     position: absolute;
 
 	 }
+
+
+	 .pic .top, .pic .bottom {
+	     width: 500px;
+	     height: 500px;
+	     overflow: hidden;
+	     position: absolute;
+	     transform: skew(-45deg);
+	 }
+	 .pic .top {
+	     left: 0;
+	     top: 0;
+	     transform-origin: 100% 0;
+	     transition:all 1s, transform 0s;
+	 }
+	 .pic .bottom {
+	     right: 0;
+	     bottom: 0;
+	     transform-origin: 0 100%;
+	     transition:all 1s, transform 0s;
+	 }
+	 .pic .top img, .pic .bottom img {
+	     width: 100%;
+	     height: 100%;
+	     transform-origin: inherit;
+	     transform: skew(45deg);
+	 }
+
+	 .pic:hover .top {
+	     left: -20px;
+	     top: -20px;
+	 }
+	 .pic:hover .bottom {
+	     right: -20px;
+	     bottom: -20px;
+	 }
+	 .pic span {
+	     transform: rotate(-45deg);
+	     transform-origin: 0 100%;
+	     position: absolute;
+	     font-size:20px;
+	     bottom:-.8em;
+	     opacity: 0;
+	     transition: all 1s ease-in .2s;
+	 }
+	 .pic:hover span {
+	     opacity: 1;
+	     text-indent: 15em;
+	 }
+
+
+	 .pic1 {
+
+     position: absolute;
+			margin-left:300px;
+			margin-top: -700px;
+	}
+
+	 .pic2 {
+      position: absolute;
+			margin-left: 300px;
+			margin-top: 100px;
+	}
+
+
+ .pic3 {
+     position: absolute;
+		 margin-left: 300px;
+		 margin-top: 	800px;
+ }
+
+ .pic4 {
+     position: absolute;
+		 margin-left: 300px;
+		 margin-top: 	1600px;
+ }
+
+ .pic5 {
+ 		position: absolute;
+ 		margin-left: 300px;
+ 		margin-top: 2300px;
+ }
+
+
+.abc{
+	position: fixed;
+	top:10px;
+	left:10px;
+	color: white;
+}
+
+.homepage{
+	position: fixed;
+	bottom:10px;
+	right:10px;
+	color: white;
+
+}
+
+
 		</style>
 
 
+<body>
 
-				<div class="W">
-        15
-				</div>
 
 				<div class="level">
-								<a href="level1a.html">Level 1a</br>
-								<a href="level1b.html">Level 1b</br>
-								<a href="level1c.html">Level 1c</br>
-								<a href="level2a.html">Level 2a</br>
-								<a href="level2b.html">Level 2b</br>
-								<a href="level2c.html">Level 2c</br></br></br>
-								<a href="level3a.html">Level 3a</br>
-								<a href="level3b.html">Level 3b</br>
-								<a href="level3c.html">Level 3c</br>
-								<a href="level4a.html">Level 4a</br>
-								<a href="level4b.html">Level 4b</br>
-								<a href="level4c.html">Level 4c</br>
+
+		 <div class="pic1">
+					<div class="pic">
+							<div class="top">
+									<img src="assets/images/3.jpg">
+									<a href="level1a.html">
+							</div>
+							<div class="bottom">
+									<img class="bottom" src="assets/images/3.jpg">
+							</div>
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I</span>
+					</div>
+		</div>
+
+
+			<div class="pic2">
+					<div class="pic">
+							<div class="top">
+									<img src="assets/images/1.jpg">
+									<a href="level2a.html">
+							</div>
+							<div class="bottom">
+									<img class="bottom" src="assets/images/1.jpg">
+							</div>
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II</span>
+					</div>
+			</div>
+
+			<div class="pic3">
+					<div class="pic">
+												<div class="top">
+														<img src="assets/images/9.jpg">
+														<a href="level3a.html">
+												</div>
+												<div class="bottom">
+														<img class="bottom" src="assets/images/9.jpg">
+												</div>
+								<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III</span>
+						</div>
+			</div>
+
+			<div class="pic4">
+			 		<div class="pic">
+												<div class="top">
+														<img src="assets/images/9.jpg">
+														<a href="level4a.html">
+												</div>
+												<div class="bottom">
+														<img class="bottom" src="assets/images/9.jpg">
+												</div>
+												<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV</span>
+										</div>
+			</div>
+
+			<div class="pic5">
+			 		<div class="pic">
+												<div class="top">
+														<img src="assets/images/10.jpg">
+														<a href="level5a.html">
+												</div>
+												<div class="bottom">
+														<img class="bottom" src="assets/images/10.jpg">
+												</div>
+												<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V</span>
+										</div>
+			</div>
+
+
+
+			 </level>
+
+
+
+
+
+
+    <div class="abc">
+
+                <a href="level1a.html">a</br>
+                <a href="level1b.html">b</br>
+                <a href="level1c.html">c</br></br></br>
+								<a href="level2a.html">a</br>
+								<a href="level2b.html">b</br>
+								<a href="level2c.html">c</br></br></br>
+								<a href="level3a.html">a</br>
+								<a href="level3b.html">b</br>
+								<a href="level3c.html">c</br></br></br>
+								<a href="level4a.html">a</br>
+								<a href="level4b.html">b</br>
+								<a href="level4c.html">c</br></br></br>
+									<a href="level5a.html">a</br>
+									<a href="level5b.html">b</br>
+									<a href="level5c.html">c</br>
 
 
 					</div>
+
+
+
+
+
+
+
+
+				<div class="homepage">
+
+
+
+				<a href="../index.html">Reture to homepage</a>
+			</div>
+
 
 
 
