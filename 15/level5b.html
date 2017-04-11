@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>level5b</title>
+  </head>
+
+  <style type="text/css">
+
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    padding-top:6px;
+    padding-bottom:6px;
+    }
+  li{
+    display:inline;
+    }
+   a:link,a:visited{
+     display:  inline-block;
+     width: 120px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#fcd6a0;
+  text-align:center;
+  opacity: 0.5;
+  padding:6px;
+  text-decoration:none;
+  text-transform:uppercase;
+  }
+  a:hover,a:active{
+  background-color:#FC786C;
+  }
+
+
+
+  body {
+      margin: 0;
+      height: 100vh;
+      background: radial-gradient(rgba(0, 0, 0, 0.7), #000000), url(assets/images/typing.gif) 50%/cover no-repeat #000;
+      background-blend-mode: luminosity;
+      color: lime;
+      font: 1.5em/ 2 vt323, monospace;
+  }
+  .message {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      width: 38ch;
+      transform: translate(-50%, -50%);
+  }
+  .message:before,
+  .message:after {
+      display: block;
+      overflow: hidden;
+      width: 0;
+      white-space: nowrap;
+      animation: a1 7.6s steps(38) forwards;
+      content: "Forget about good. Good is a known quantity. Good is what we all agree on. Growth is not   ";
+  }
+  .message:after {
+      animation: a2 6.4s steps(32) 7.6s forwards;
+      content: "necessarily good. As long as you stick to good you’ll never have real growth.";
+  }
+
+  @keyframes a1 {
+      to {
+          width: 110ch;
+      }
+  }
+  @keyframes a2 {
+      to {
+          width: 110ch;
+      }
+  }
+  @keyframes a3 {
+      to {
+          width: 100ch;
+      }
+  }
+
+      }
+  </style>
+  <body>
+
+
+    <script src="http://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
+    <div class="message"></div>
+
+  </br></br></br></br></br></br></br></br></br></br></br></br>
+
+  <ul></br></br></br>
+
+  <div align=center>
+  <a href="level5a.html">Previous</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="level5c.html">Next</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="index.html">Back</a>
+    </div>
+
+      </ul>
+
+  </body>
+</html>
