@@ -36,6 +36,15 @@ body{
   padding:7px;
 
 }
+
+.homepage{
+
+  margin-left:620px;
+  margin-top:300px;
+
+}
+
+
 a:link,a:visited{
 display:  inline-block;
 color:grey;
