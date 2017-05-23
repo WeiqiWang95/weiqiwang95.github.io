@@ -49,23 +49,11 @@ body{
 #colornav li:nth-child(4) a:hover {border-bottom: 50px solid #D4953C;height: 9px;}
 #colornav li:nth-child(3) a:hover {border-bottom: 50px solid #4099FF;height: 9px;}
 
-.blue {
- color:blue;
-}
-
-.red {
-  color:red;
-}
-
-.green {
-  color:green;
-}
-
 img{ width:500px; height:500px}
 
 .imagebar{
 margin-left: 80px;
-height:100vh;
+height:110vh;
 overflow: scroll;
 position: fixed;
 }
@@ -100,74 +88,4 @@ margin-top: 20px;
   margin-top: 50px;
   width:550px;
   font-family:lucida grande;
-}
-
-.cloud{
-  padding:2px;
-  background-color: purple;
-  color:#fff;
-}
-
-.cloud:hover{
-  background-color: #B5222D;
-  color:#fff;
-}
-
-.apple{
-  padding:2px;
-  background-color: #B5222D;
-  color:#fff;
-}
-
-.apple:hover{
-  background-color: #4099FF;
-  color:#fff;
-}
-
-.lee{
-  padding:2px;
-  background-color: #4099FF;
-  color:#fff;
-}
-
-.lee:hover{
-  background-color: #D4953C;
-  color:#fff;
-}
-
-.flickr{
-  padding:2px;
-  background-color: #D4953C;
-  color:#fff;
-}
-
-.flickr:hover{
-  background-color: purple;
-  color:#fff;
-}
-
-.facebook{
-  padding:2px;
-  background-color: purple;
-  color:#fff;
-}
-
-.facebook:hover{
-  background-color: #B5222D;
-  color:#fff;
-}
-
-.footnote{
-  position:fixed;
-  left:800px;
-  top:400px;
-  display: none;
-}
-
-.footnote.showme{
-  color:black;
-  display: block;
-  background-color: yellow;
-  height: 20px;
-
 }
