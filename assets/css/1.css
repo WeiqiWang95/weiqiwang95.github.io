@@ -64,18 +64,21 @@ body{
 img{ width:500px; height:500px}
 
 .imagebar{
-margin-left: 80px;
+margin-left: 60px;
 height:100vh;
 overflow: scroll;
 position: fixed;
+color:black;
 }
 .image1{
 cursor: pointer;
 margin-bottom: 20px;
+cursor: pointer;
 }
 .image2{
 cursor: pointer;
 margin-top: 20px;
+cursor: pointer;
 }
 .image3{
   cursor: pointer;
