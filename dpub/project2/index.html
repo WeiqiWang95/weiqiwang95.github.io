@@ -3,16 +3,58 @@
 	<head>
 		<title>First Name Last Name</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 	</head>
+	<style media="screen">
+	body{
+		background-color: black;
+	}
+
+	a{
+		text-decoration: none;
+		font-family: arial;
+
+	}
+	.text{
+		position: absolute;
+		top:200px;
+		left:650px;
+		color:lightblue;
+		font-size: 60px;
+	}
+ .text:hover{
+	 transform: rotate(180deg);
+	 transform:scale(2,1.5):
+ }
+ .link{
+	 position: absolute;
+	 top:300px;
+	 left:500px;
+	 color:lightblue;
+	 font-size: 60px;
+ }
+.link:hover{
+
+	transform:scale(3,2.5);
+}
+.back{
+	position: absolute;
+	left:600px;
+	bottom:100px;
+	color:white;
+	font-size: 20px;
+}
+.back:hover{
+ transform: rotate(350deg);
+ transform:scale(2,1.5):
+}
+	</style>
 	<body>
 
-		<h1>Project 2</h1> <br>
-		<a href="text.html">Text</a> <br>
-		<a href="idea1.html">Idea 1</a> <br>
-		<a href="idea2.html">Idea 2</a> <br>
-		<a href="idea3.html">Idea 3</a><br>
-		<a href="https://www.youtube.com/watch?v=RBtTxf5_Jj8">Clink Click Click</a><br>
-		<a href="../index.html">Reture to homepage</a>
+		<h1>Repost a text</h1><br/>
+		<a class="text" href="text.html">Text</a> <br/>
+		<a class="link" href="https://www.youtube.com/watch?v=RBtTxf5_Jj8">Clink Click Click</a><br/>
+		<a class="back" href="../index.html">Reture to homepage</a>
 
 
 
