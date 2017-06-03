@@ -50,36 +50,52 @@ body{
 #colornav li:nth-child(3) a:hover {border-bottom: 50px solid #4099FF;height: 9px;}
 
 img{ width:500px; height:500px}
+.gif{
 
+  bottom: 0px;
+  left: 600px;
+  z-index: -1;
+  position: fixed;
+
+}
+.gif1{
+
+  bottom: 0px;
+  left: 20px;
+  z-index: -1;
+  position: fixed;
+}
+.click{
+
+  bottom: 60px;
+  left: 35px;
+  z-index: -1;
+  position: fixed;
+}
 .imagebar{
-margin-left: 80px;
-height:110vh;
-overflow: scroll;
-position: fixed;
-}
-.image1{
-cursor: pointer;
-margin-bottom: 20px;
-}
-.image2{
-cursor: pointer;
-margin-top: 20px;
-}
-.image3{
+  margin-left: 100px;
+  margin-top:140px;
+  height:100vh;
+  position: fixed;
+  color:black;
+  height:500px;
+  overflow: scroll;
   cursor: pointer;
-
 }
-.image4{
-  cursor: pointer;
+::-webkit-scrollbar{
+		  width: 15px;
+    }
 
-}
-.image5{
-  cursor: pointer;
-
+::-webkit-scrollbar-corner{
+  width: 10px;
 }
 
 * {
   box-sizing:border-box;
+}
+a{
+  text-decoration: none;
+  color:white;
 }
 
 .content {
@@ -87,5 +103,105 @@ margin-top: 20px;
   margin-left: 700px;
   margin-top: 50px;
   width:550px;
-  font-family:lucida grande;
+  font-family:Palatino;
+}
+
+.blue {
+ color:blue;
+}
+
+.red {
+  color:red;
+}
+
+.green {
+  color:green;
+}
+
+.orange {
+  color:orange;
+}
+
+.yellow {
+  color:yellow;
+}
+
+.purple{
+   color:purple;
+}
+
+.sencond{
+  padding:2px;
+  background-color: purple;
+  color:#fff;
+}
+
+.second:hover{
+  background-color: #B5222D;
+  color:#fff;
+}
+
+.millisenconds{
+  padding:2px;
+  background-color: #B5222D;
+  color:#fff;
+}
+
+.millisenconds:hover{
+  background-color: #4099FF;
+  color:#fff;
+}
+
+.own{
+  padding:2px;
+  background-color: #4099FF;
+  color:#fff;
+}
+
+.own:hover{
+  background-color: #D4953C;
+  color:#fff;
+}
+
+.key{
+  padding:2px;
+  background-color: #D4953C;
+  color:#fff;
+}
+.key:hover{
+  background-color:purple;
+  color:#fff;
+}
+
+.take{
+  padding:2px;
+  background-color: purple;
+  color:#fff;
+}
+
+.take:hover{
+  background-color: #B5222D;
+  color:#fff;
+}
+
+.analyzed{
+  padding:2px;
+  background-color: #B5222D;
+  color:#fff;
+}
+
+.analyzed:hover{
+  background-color: #4099FF;
+  color:#fff;
+}
+
+.consumer{
+  padding:2px;
+  background-color: #4099FF;
+  color:#fff;
+}
+
+.consumer:hover{
+  background-color: #D4953C;
+  color:#fff;
 }
